@@ -13,16 +13,21 @@ namespace Chat.Core.Models
         public Guid UserId { get; }
         public Guid FriendId { get; }
 
-        private FriendPair(Guid id, Guid userId, Guid friendId)
+        public bool Confirm { get; }
+        public bool Cancel { get; }
+
+        private FriendPair(Guid id, Guid userId, Guid friendId, bool confirm, bool cancel)
         {
             Id = id;
             UserId = userId;
             FriendId = friendId;
+            Confirm = confirm;
+            Cancel = cancel;
         }
 
-        public static FriendPair Create(Guid id, Guid userId, Guid friendId)
+        public static FriendPair Create(Guid id, Guid userId, Guid friendId, bool confirm, bool cancel)
         {
-            return new FriendPair(id, userId, friendId);
+            return new FriendPair(id, userId, friendId, confirm, cancel);
         }
     }
 }

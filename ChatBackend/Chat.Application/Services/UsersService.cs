@@ -79,5 +79,10 @@ namespace Chat.Application.Services
             var token = _jwtProvider.GenerateToken(user);
             return token;
         }
+
+        public async Task<User> GetById(Guid id)
+        {
+            return await _userRepository.GetById(id);
+        }
     }
 }

@@ -4,6 +4,8 @@
     (
         Guid IdPair,
         Guid IdUser,
-        Guid IdFriend
+        Guid IdFriend,
+        bool confirm,
+        bool cancel
     );
 }

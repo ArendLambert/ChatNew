@@ -1,16 +1,22 @@
 "use client";
 
 import { useEffect, useRef, useState } from 'react';
-import { signalServerAdress } from '../Components/constants'; // Предполагаем, что используется https
+import { signalServerAdress } from '../Components/constants';
+import { FriendList } from '../Components/friendsWindow';
+import { getById, getCookie } from '../Services/users';
+import { UUID } from 'crypto';
+import { Button } from 'antd';
+import styles from "../page.module.css";
 
-const VideoCall = () => {
+const VideoCall: React.FC = () => {
   const [stream, setStream] = useState<MediaStream | undefined>(undefined);
-  const [otherUserId, setOtherUserId] = useState<string>('');
+  const [otherUserId, setOtherUserId] = useState<UUID>('4b9adb19-5fe0-43d8-956a-2b63c7d8cb77');
   const [myId, setMyId] = useState<string>('');
   const myVideoRef = useRef<HTMLVideoElement | null>(null);
   const userVideoRef = useRef<HTMLVideoElement | null>(null);
   const peerConnection = useRef<RTCPeerConnection | null>(null);
   const pendingCandidates = useRef<RTCIceCandidateInit[]>([]);
+  const [incomingCall, setIncomingCall] = useState<{ fromUserId: UUID; offer: RTCSessionDescriptionInit; name: string } | null>(null);
 
   const startVideo = async (): Promise<MediaStream | undefined> => {
     if (stream) {
@@ -116,7 +122,6 @@ const VideoCall = () => {
   };
 
   useEffect(() => {
-    // Проверяем, если есть и stream и otherUserId
     if (otherUserId && stream) {
       const pc = createPeerConnection(stream, otherUserId);
       if (pc) {
@@ -125,8 +130,9 @@ const VideoCall = () => {
         console.error('Не удалось создать peer connection (IN 2)');
       }
     }
-  }, [otherUserId, stream]);  // Зависят от stream и otherUserId
+  }, [otherUserId, stream]);
 
+  // Кусок легаси
   function generateRandomUsername() {
     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     let result = '';
@@ -140,19 +146,20 @@ const VideoCall = () => {
   const fetchMyId = async () => {
   if (myId) {
     console.log('ID уже получен:', myId);
-    return;  // Если ID уже получен, не выполняем запрос
+    return;
   }
 
   const randomUsername = generateRandomUsername();
   console.log(`Генерируем случайный никнейм: ${randomUsername}`);
-  
+  const cookie = await getCookie('something');
+  console.log(`На самом деле используем userId из кук: ${cookie.userId}`);
   try {
     const response = await fetch(`${signalServerAdress}/register`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ id: randomUsername }),
+      body: JSON.stringify({ id: cookie.userId }),
     });
 
     if (response.ok) {
@@ -167,7 +174,8 @@ const VideoCall = () => {
   }
 };
 
-  // Функции для отправки сигналов через HTTP
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  // Функции для отправки сигналов
   const sendOffer = async (offer: RTCSessionDescriptionInit) => {
     try {
       await fetch(`${signalServerAdress}/offer`, {
@@ -178,7 +186,7 @@ const VideoCall = () => {
         body: JSON.stringify({
           offer: offer,
           to: otherUserId,
-          from: myId,  // Передаем ID отправителя
+          from: myId,
         }),
       });
     } catch (error) {
@@ -196,7 +204,7 @@ const VideoCall = () => {
         body: JSON.stringify({
           answer: answer,
           to: otherUserId,
-          from: myId,  // Передаем ID отправителя
+          from: myId,
         }),
       });
     } catch (error) {
@@ -214,7 +222,7 @@ const VideoCall = () => {
         body: JSON.stringify({
           candidate: candidate,
           to: otherUserId,
-          from: myId,  // Передаем ID отправителя
+          from: myId,
         }),
       });
     } catch (error) {
@@ -236,8 +244,17 @@ const VideoCall = () => {
     }
   };
 
-  const handleOffer = async (offer: RTCSessionDescriptionInit, fromUserId: string) => {
+  const handleOffer = async (offer: RTCSessionDescriptionInit, fromUserId: UUID) => {
     console.log('Получено предложение звонка от:', fromUserId);
+    const userData = await getById(fromUserId);
+    const name = userData.name;
+    setIncomingCall({ fromUserId, offer, name});
+  };
+
+  const acceptCall = async () => {
+    if (!incomingCall) return;
+
+    const { offer, fromUserId } = incomingCall;
     setOtherUserId(fromUserId);
 
     try {
@@ -263,7 +280,7 @@ const VideoCall = () => {
             console.error('Ошибка при добавлении буферизованного ICE кандидата:', err);
           }
         });
-        pendingCandidates.current = []; // Очищаем буфер
+        pendingCandidates.current = [];
       }
       
       const answer = await pc.createAnswer();
@@ -273,6 +290,12 @@ const VideoCall = () => {
       console.error('Ошибка при обработке предложения звонка:', err);
       alert('Не удалось ответить на звонок: ' + (err instanceof Error ? err.message : 'неизвестная ошибка'));
     }
+    setIncomingCall(null); // Скрываем окно
+  };
+
+  const rejectCall = () => {
+    console.log('Звонок отклонен');
+    setIncomingCall(null); // Скрываем окно
   };
 
   const handleAnswer = async (answer: RTCSessionDescriptionInit) => {
@@ -292,7 +315,7 @@ const VideoCall = () => {
             console.error('Ошибка при добавлении буферизованного ICE кандидата:', err);
           }
         });
-        pendingCandidates.current = []; // Очищаем буфер
+        pendingCandidates.current = [];
       }
       
     } catch (err) {
@@ -313,6 +336,8 @@ const VideoCall = () => {
     }
   };
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
   useEffect(() => {
     setInterval(() => {
       checkConnectionState();
@@ -329,7 +354,8 @@ const VideoCall = () => {
     return () => clearInterval(interval);
   }, [myId]);
 
-  const startCall = async () => {
+  const startCall = async (id: UUID) => {
+    setOtherUserId(id);
     if (!otherUserId) {
       console.error("ID собеседника не указан (in startCall)");
       return;
@@ -343,8 +369,9 @@ const VideoCall = () => {
           throw new Error('Не удалось получить доступ к медиа-устройствам');
         }
       }
-
-      const pc = createPeerConnection(currentStream, otherUserId);
+      console.log('ID');
+      console.log(id);
+      const pc = createPeerConnection(currentStream, id);
       
       if (!pc) {
         throw new Error('Не удалось создать peer connection');
@@ -353,14 +380,11 @@ const VideoCall = () => {
       const offer = await pc.createOffer();
       await pc.setLocalDescription(offer);
       sendOffer(offer);
-    } catch (err) {
+    }catch (err) {
       console.error('Ошибка при создании предложения:', err);
     }
   };
 
-  const handlePeerIdChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setOtherUserId(e.target.value);
-  };
   
   const checkConnectionState = () => {
     if (peerConnection.current) {
@@ -377,63 +401,67 @@ const VideoCall = () => {
   
 
   return (
-    <div className="p-4">
+    <div className={styles.fullscreen_div}>
+      {incomingCall && (
+        <div className="fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50 flex justify-center items-center">
+          <div className="bg-white p-6 rounded shadow-md text-center">
+            <h2 className="text-xl font-bold mb-4">Входящий звонок</h2>
+            <p>От пользователя: {incomingCall.name}</p>
+            <div className="mt-4 flex gap-4 justify-center">
+              <Button
+                onClick={acceptCall}
+                type="primary"
+              >
+                Принять
+              </Button>
+              <Button
+                onClick={rejectCall}
+                danger
+                className={styles.reject_call_button}
+              >
+                Отклонить
+              </Button>
+            </div>
+          </div>
+        </div>)}
+      <div>
+      <FriendList onButtonClick={(id) => startCall(id)}>
+
+      </FriendList>
+      </div>
       <h2 className="text-2xl mb-4">Видеозвонок</h2>
-      <div className="mb-4">
-        <label className="block">Ваш ID: {myId}</label>
-      </div>
-      <div className="mb-4">
-        <label className="block">
-          ID собеседника:
-          <input
-            type="text"
-            value={otherUserId}
-            onChange={handlePeerIdChange}
-            className="border p-2 ml-2"
-          />
-        </label>
-      </div>
-      <div className="flex gap-4 mb-4">
-        <button
-          onClick={startVideo}
-          disabled={!!stream}
-          className="bg-blue-500 text-white px-4 py-2 rounded disabled:opacity-50"
-        >
-          {stream ? 'Камера включена' : 'Включить камеру'}
-        </button>
-        <button
-          onClick={startCall}
-          disabled={!stream || !otherUserId}
-          className="bg-green-500 text-white px-4 py-2 rounded disabled:opacity-50"
-        >
-          Позвонить
-        </button>
-      </div>
-      <div className="grid grid-cols-2 gap-4">
-        <div className="w-full">
-          <h3 className="text-lg mb-2">Ваше видео</h3>
-          <video
-            ref={myVideoRef}
-            autoPlay
-            playsInline
-            muted
-            className="w-full h-[360px] border bg-gray-100 object-cover"
-          />
+      <div className={styles.video_block_wrapper}>
+        <div className="grid grid-cols-2 gap-4">
+          <div className={styles.video_block_div}>
+            <h3 className="text-lg mb-2"></h3>
+            <video
+              ref={userVideoRef}
+              playsInline
+              className={styles.other_user_video_block}
+            />
+          </div>
         </div>
-        <div className="w-full">
-          <h3 className="text-lg mb-2">Видео собеседника</h3>
-          <video
-            ref={userVideoRef}
-            playsInline
-            className="w-full h-[360px] border bg-gray-100 object-cover"
-          />
+        <div className={styles.video_block_div}>
+            <h3 className="text-lg mb-2"></h3>  
+            <video
+              ref={myVideoRef}
+              autoPlay
+              playsInline
+              muted
+              className={styles.my_video_block}
+            />
         </div>
       </div>
-    
-      
+      <div>
+        {peerConnection.current ? (
+          <Button danger onClick={() => location.reload()}>Завершить звонок</Button>
+        ) : null}     
+      </div>
+      <footer className={styles.footer}>
       <div className="mt-4 text-sm text-gray-600">
         Статус соединения: {peerConnection.current?.iceConnectionState || 'не подключено'}
       </div>
+      </footer>
     </div>
   );
 };

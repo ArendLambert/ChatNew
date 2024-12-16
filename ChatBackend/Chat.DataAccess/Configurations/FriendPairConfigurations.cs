@@ -21,6 +21,14 @@ namespace Chat.DataAccess.Configurations
 
             builder.Property(x => x.IdFriend)
                 .IsRequired();
+
+            builder.Property(x => x.Confirm)
+                .HasDefaultValue(false)
+                .IsRequired();
+
+            builder.Property(x => x.Cancel)
+                .HasDefaultValue(false)
+                .IsRequired();
         }
     }
 }

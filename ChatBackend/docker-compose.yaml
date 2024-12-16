@@ -1,7 +1,6 @@
-version: 'v2.29.2-desktop.2'
 services:
   db:
-    image: postgres:latest
+    image: arendlambert/postgres-custom
     container_name: database-container
     environment:
       POSTGRES_USER: "admin"
@@ -11,21 +10,24 @@ services:
       - "5433:5432"
     volumes:
     - postgres-data:/var/lib/postgresql/data
+    networks:
+      - app-network
   webapi:
-    build:
-        context: .
-        dockerfile: Dockerfile
+    image: arendlambert/webapi4
     container_name: webapi-container
     ports:
         - "8080:8080"
         - "7151:7151"
-        - "80:80"
-        - "443:443"
     depends_on:
         - db
     environment:
         - ASPNETCORE_URLS=http://+:8080
+    networks:
+      - app-network
 
 
 volumes:
   postgres-data:
+networks:
+  app-network:
+    driver: bridge

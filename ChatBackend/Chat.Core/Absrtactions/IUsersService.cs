@@ -11,5 +11,6 @@ namespace Chat.Application.Services
 
         Task<User> GetByEmail(string email);
         Task<User> GetPasswordByEmail(string email);
+        Task<User> GetById(Guid id);
     }
 }

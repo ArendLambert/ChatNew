@@ -44,3 +44,4 @@ C:\Users\79069\source\repos\Chat-master\ChatBackend\Chat.Infrastructure\obj\Debu
 C:\Users\79069\source\repos\Chat-master\ChatBackend\Chat.Infrastructure\obj\Debug\net8.0\refint\Chat.Infrastructure.dll
 C:\Users\79069\source\repos\Chat-master\ChatBackend\Chat.Infrastructure\obj\Debug\net8.0\Chat.Infrastructure.pdb
 C:\Users\79069\source\repos\Chat-master\ChatBackend\Chat.Infrastructure\obj\Debug\net8.0\ref\Chat.Infrastructure.dll
+C:\Users\79069\source\repos\Chat-master\ChatBackend\Chat.Infrastructure\obj\Debug\net8.0\Chat.Infrastructure.sourcelink.json

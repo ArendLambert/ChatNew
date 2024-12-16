@@ -50,3 +50,4 @@ C:\Users\79069\source\repos\Chat-master\ChatBackend\Chat.Application\obj\Debug\n
 C:\Users\79069\source\repos\Chat-master\ChatBackend\Chat.Application\obj\Debug\net8.0\refint\Chat.Application.dll
 C:\Users\79069\source\repos\Chat-master\ChatBackend\Chat.Application\obj\Debug\net8.0\Chat.Application.pdb
 C:\Users\79069\source\repos\Chat-master\ChatBackend\Chat.Application\obj\Debug\net8.0\ref\Chat.Application.dll
+C:\Users\79069\source\repos\Chat-master\ChatBackend\Chat.Application\obj\Debug\net8.0\Chat.Application.sourcelink.json

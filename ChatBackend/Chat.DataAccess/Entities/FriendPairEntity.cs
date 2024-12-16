@@ -14,5 +14,7 @@ namespace Chat.DataAccess.Entities
         public Guid IdPair { get; set; }
         public Guid IdUser { get; set; }
         public Guid IdFriend { get; set; }
+        public bool Confirm { get; set; }
+        public bool Cancel { get; set; }
     }
 }

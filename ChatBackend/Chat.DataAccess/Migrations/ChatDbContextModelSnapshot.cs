@@ -28,6 +28,12 @@ namespace Chat.DataAccess.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
+                    b.Property<bool>("Cancel")
+                        .HasColumnType("boolean");
+
+                    b.Property<bool>("Confirm")
+                        .HasColumnType("boolean");
+
                     b.Property<Guid>("IdFriend")
                         .HasColumnType("uuid");
 

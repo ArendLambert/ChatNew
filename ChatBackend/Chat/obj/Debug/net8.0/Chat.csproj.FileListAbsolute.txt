@@ -380,3 +380,4 @@ C:\Users\79069\source\repos\Chat-master\ChatBackend\Chat\obj\Debug\net8.0\refint
 C:\Users\79069\source\repos\Chat-master\ChatBackend\Chat\obj\Debug\net8.0\Chat.pdb
 C:\Users\79069\source\repos\Chat-master\ChatBackend\Chat\obj\Debug\net8.0\Chat.genruntimeconfig.cache
 C:\Users\79069\source\repos\Chat-master\ChatBackend\Chat\obj\Debug\net8.0\ref\Chat.dll
+C:\Users\79069\source\repos\Chat-master\ChatBackend\Chat\obj\Debug\net8.0\Chat.sourcelink.json

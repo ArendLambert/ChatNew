@@ -2,5 +2,7 @@
 {
     public record PairRequest(
         Guid userId,
-        Guid friendId);
+        Guid friendId,
+        bool confirm,
+        bool cancel);
 }

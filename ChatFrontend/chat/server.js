@@ -1,116 +1,116 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 
-// Настройка Express
 const app = express();
 
-// Парсинг JSON в теле запроса
 app.use(bodyParser.json());
 
 // Мапа для хранения пользователей (ID клиента -> данные соединения)
 const clients = {};
 
-// Обработчик запроса на регистрацию (получение ID пользователя)
-app.post('/register', (req, res) => {
+
+app.post('/register', async (req, res) => {
   const { id } = req.body;
-  
+
   if (!id) {
     return res.status(400).json({ error: 'ID обязательно' });
   }
 
-  // Регистрация клиента
   clients[id] = {
     id,
     offer: null,
     answer: null,
-    candidate: null,
+    candidates: null,
+    from: null,
   };
 
   console.log(`Пользователь с ID ${id} зарегистрирован`);
-
-  res.status(200).json({ id });  // Отправляем ID пользователя в ответе
+  res.status(200).json({ id });
 });
 
-
-// Обработчик запроса на отправку предложения (offer)
-app.post('/offer', (req, res) => {
-  const { offer, to } = req.body;
-
-  if (!offer || !to) {
-    return res.status(400).json({ error: 'Необходимы offer и to' });
+app.post('/offer', async (req, res) => {
+  const { offer, to, from } = req.body;
+  console.log("offer");
+  console.log(offer);
+  if (!offer || !to || !from) {
+    return res.status(400).json({ error: 'Необходимы offer, to и from' });
   }
 
   if (!clients[to]) {
     return res.status(404).json({ error: 'Пользователь не найден' });
   }
 
-  // Отправляем предложение пользователю
   clients[to].offer = offer;
-  console.log(`Отправлено предложение от пользователя ${req.body.from} пользователю ${to}`);
-
-  res.status(200).json({ message: 'Предложение отправлено' });
+  clients[to].from = from;
+  console.log(`Пользователь ${from} отправил offer пользователю ${to}`);
+  res.status(200).json({ message: 'Offer отправлен' });
 });
 
-// Обработчик запроса на отправку ответа (answer)
-app.post('/answer', (req, res) => {
-  const { answer, to } = req.body;
-
-  if (!answer || !to) {
-    return res.status(400).json({ error: 'Необходимы answer и to' });
+app.post('/answer', async (req, res) => {
+  const { answer, to, from } = req.body;
+  console.log("answer");
+  console.log(answer);
+  if (!answer || !to || !from) {
+    return res.status(400).json({ error: 'Необходимы answer, to и from' });
   }
 
   if (!clients[to]) {
     return res.status(404).json({ error: 'Пользователь не найден' });
   }
 
-  // Отправляем ответ пользователю
   clients[to].answer = answer;
-  console.log(`Отправлен ответ от пользователя ${req.body.from} пользователю ${to}`);
-
-  res.status(200).json({ message: 'Ответ отправлен' });
+  clients[to].from = from;
+  console.log(`Пользователь ${from} отправил answer пользователю ${to}`);
+  res.status(200).json({ message: 'Answer отправлен' });
 });
 
-// Обработчик запроса на отправку ICE кандидата
-app.post('/candidate', (req, res) => {
-  const { candidate, to } = req.body;
-
-  if (!candidate || !to) {
-    return res.status(400).json({ error: 'Необходимы candidate и to' });
+// Обмен данными о сети
+app.post('/candidate', async (req, res) => {
+  const { candidate, to, from } = req.body;
+  if (!candidate || !to || !from) {
+    return res.status(400).json({ error: 'Необходимы candidate, to и from' });
   }
-
   if (!clients[to]) {
     return res.status(404).json({ error: 'Пользователь не найден' });
   }
-
-  // Отправляем ICE кандидата пользователю
-  clients[to].candidate = candidate;
-  console.log(`Отправлен ICE кандидат от пользователя ${req.body.from} пользователю ${to}`);
-
-  res.status(200).json({ message: 'ICE кандидат отправлен' });
+  clients[to].candidates = clients[to].candidates || [];
+  clients[to].candidates.push(candidate);
+  clients[to].from = from;
+  console.log(`Пользователь ${from} отправил ICE кандидат пользователю ${to}`);
+  res.status(200).json({ message: 'Candidate отправлен' });
 });
 
-// Обработчик для получения данных о сигнализации
-app.get('/signal/:userId', (req, res) => {
+// Получение сигналов из пула
+app.get('/signal/:userId', async (req, res) => {
   const userId = req.params.userId;
-  
+
   if (!clients[userId]) {
-    return res.status(404).json({ error: 'Пользователь не найден' });
+    return res.status(405).json({ error: 'Пользователь не найден' });
   }
 
   const client = clients[userId];
-  
-  // Возвращаем предложение, ответ или ICE кандидата
+
+  if (!client.offer && !client.answer && !client.candidate) {
+    return res.status(406).json({message: "Нет доступных сигналов"});
+  }
+
   res.status(200).json({
     offer: client.offer,
     answer: client.answer,
     candidate: client.candidate,
+    fromUserId: client.from,
   });
+
+  client.offer = null;
+  client.answer = null;
+  client.candidate = null;
+  client.from = null;
 });
 
-// Очистка пользователей при закрытии соединения
-app.post('/disconnect', (req, res) => {
+// Отключение пользователя
+app.post('/disconnect', async (req, res) => {
   const { id } = req.body;
-  
+
   if (clients[id]) {
     delete clients[id];
     console.log(`Пользователь с ID ${id} отключился`);
@@ -120,12 +120,16 @@ app.post('/disconnect', (req, res) => {
   }
 });
 
-// Стандартный обработчик для корневого маршрута
+// Для тестирования
 app.get('/', (req, res) => {
   res.send('Hello, world!');
 });
 
-// Создание HTTP-сервера
-const server = app.listen(3001, () => {
-  console.log(`Сервер запущен на http://localhost:3001`);
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).json({ error: 'Внутренняя ошибка сервера' });
+});
+
+app.listen(3001, () => {
+  console.log('Сервер запущен на http://localhost:3001');
 });

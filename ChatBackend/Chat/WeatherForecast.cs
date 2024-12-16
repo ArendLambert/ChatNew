@@ -1,5 +1,6 @@
 namespace Chat
 {
+    // “о самое легаси при создании проекта webAPI ??
     public class WeatherForecast
     {
         public DateOnly Date { get; set; }

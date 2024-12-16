@@ -72,5 +72,18 @@ namespace Chat.Controllers
             }
             return Ok(usersResponse);
         }
+
+        [HttpGet("by-id")]
+        [Authorize]
+        public async Task<ActionResult<UsersResponse>> GetById(Guid id)
+        {
+            var user = await _usersService.GetById(id);
+            var usersResponse = new UsersResponse(Guid.NewGuid(), "-1", "-1", "-1", "-1");
+            if (user != null)
+            {
+                usersResponse = new UsersResponse(user.Id, user.Name, user.SessionId, user.Password, user.Email);
+            }
+            return Ok(usersResponse);
+        }
     }
 }

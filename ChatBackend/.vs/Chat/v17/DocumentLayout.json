@@ -3,12 +3,120 @@
   "WorkspaceRootPath": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|solutionrelative:chat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.dataaccess\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|solutionrelative:chat.dataaccess\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.dataaccess\\configurations\\friendpairconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|solutionrelative:chat.dataaccess\\configurations\\friendpairconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.dataaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|solutionrelative:chat.dataaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3731CED9-BE94-44E7-914F-96D2A1A9DD4D}|Chat.Infrastructure\\Chat.Infrastructure.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.infrastructure\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3731CED9-BE94-44E7-914F-96D2A1A9DD4D}|Chat.Infrastructure\\Chat.Infrastructure.csproj|solutionrelative:chat.infrastructure\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3731CED9-BE94-44E7-914F-96D2A1A9DD4D}|Chat.Infrastructure\\Chat.Infrastructure.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.infrastructure\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3731CED9-BE94-44E7-914F-96D2A1A9DD4D}|Chat.Infrastructure\\Chat.Infrastructure.csproj|solutionrelative:chat.infrastructure\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3731CED9-BE94-44E7-914F-96D2A1A9DD4D}|Chat.Infrastructure\\Chat.Infrastructure.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.infrastructure\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3731CED9-BE94-44E7-914F-96D2A1A9DD4D}|Chat.Infrastructure\\Chat.Infrastructure.csproj|solutionrelative:chat.infrastructure\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat\\controllers\\friendspaircontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|solutionrelative:chat\\controllers\\friendspaircontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat\\contracts\\pairrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|solutionrelative:chat\\contracts\\pairrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat\\contracts\\usersresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|solutionrelative:chat\\contracts\\usersresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat\\contracts\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|solutionrelative:chat\\contracts\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat\\contracts\\userloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|solutionrelative:chat\\contracts\\userloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|solutionrelative:chat\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31B945DA-7497-4265-8F95-A24762DAA307}|Chat.Application\\Chat.Application.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.application\\services\\friendpairservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31B945DA-7497-4265-8F95-A24762DAA307}|Chat.Application\\Chat.Application.csproj|solutionrelative:chat.application\\services\\friendpairservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CB4D01-7DB3-4F48-8FA1-71900D0DD27A}|Chat.Core\\Chat.Core.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.core\\models\\friendpair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CB4D01-7DB3-4F48-8FA1-71900D0DD27A}|Chat.Core\\Chat.Core.csproj|solutionrelative:chat.core\\models\\friendpair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CB4D01-7DB3-4F48-8FA1-71900D0DD27A}|Chat.Core\\Chat.Core.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CB4D01-7DB3-4F48-8FA1-71900D0DD27A}|Chat.Core\\Chat.Core.csproj|solutionrelative:chat.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.dataaccess\\repositories\\friendrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|solutionrelative:chat.dataaccess\\repositories\\friendrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31B945DA-7497-4265-8F95-A24762DAA307}|Chat.Application\\Chat.Application.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.application\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31B945DA-7497-4265-8F95-A24762DAA307}|Chat.Application\\Chat.Application.csproj|solutionrelative:chat.application\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|solutionrelative:chat\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat\\contracts\\pairsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|solutionrelative:chat\\contracts\\pairsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat\\endpoints\\userendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|solutionrelative:chat\\endpoints\\userendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CB4D01-7DB3-4F48-8FA1-71900D0DD27A}|Chat.Core\\Chat.Core.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.core\\absrtactions\\ifriendpairservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CB4D01-7DB3-4F48-8FA1-71900D0DD27A}|Chat.Core\\Chat.Core.csproj|solutionrelative:chat.core\\absrtactions\\ifriendpairservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CB4D01-7DB3-4F48-8FA1-71900D0DD27A}|Chat.Core\\Chat.Core.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.core\\absrtactions\\ifriendrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CB4D01-7DB3-4F48-8FA1-71900D0DD27A}|Chat.Core\\Chat.Core.csproj|solutionrelative:chat.core\\absrtactions\\ifriendrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CB4D01-7DB3-4F48-8FA1-71900D0DD27A}|Chat.Core\\Chat.Core.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.core\\absrtactions\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CB4D01-7DB3-4F48-8FA1-71900D0DD27A}|Chat.Core\\Chat.Core.csproj|solutionrelative:chat.core\\absrtactions\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat\\extensions\\apiextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|solutionrelative:chat\\extensions\\apiextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84CB4D01-7DB3-4F48-8FA1-71900D0DD27A}|Chat.Core\\Chat.Core.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.core\\absrtactions\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84CB4D01-7DB3-4F48-8FA1-71900D0DD27A}|Chat.Core\\Chat.Core.csproj|solutionrelative:chat.core\\absrtactions\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.dataaccess\\entities\\friendpairentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|solutionrelative:chat.dataaccess\\entities\\friendpairentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|solutionrelative:chat\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|solutionrelative:chat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.dataaccess\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|solutionrelative:chat.dataaccess\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,18 +134,6 @@
       "RelativeMoniker": "D:0:0:{31B945DA-7497-4265-8F95-A24762DAA307}|Chat.Application\\Chat.Application.csproj|solutionrelative:chat.application\\chat.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3731CED9-BE94-44E7-914F-96D2A1A9DD4D}|Chat.Infrastructure\\Chat.Infrastructure.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.infrastructure\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3731CED9-BE94-44E7-914F-96D2A1A9DD4D}|Chat.Infrastructure\\Chat.Infrastructure.csproj|solutionrelative:chat.infrastructure\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3731CED9-BE94-44E7-914F-96D2A1A9DD4D}|Chat.Infrastructure\\Chat.Infrastructure.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.infrastructure\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3731CED9-BE94-44E7-914F-96D2A1A9DD4D}|Chat.Infrastructure\\Chat.Infrastructure.csproj|solutionrelative:chat.infrastructure\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|solutionrelative:chat\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{84CB4D01-7DB3-4F48-8FA1-71900D0DD27A}|Chat.Core\\Chat.Core.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.core\\chat.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{84CB4D01-7DB3-4F48-8FA1-71900D0DD27A}|Chat.Core\\Chat.Core.csproj|solutionrelative:chat.core\\chat.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -46,100 +142,8 @@
       "RelativeMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|solutionrelative:chat.dataaccess\\chatdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31B945DA-7497-4265-8F95-A24762DAA307}|Chat.Application\\Chat.Application.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.application\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31B945DA-7497-4265-8F95-A24762DAA307}|Chat.Application\\Chat.Application.csproj|solutionrelative:chat.application\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.dataaccess\\chat.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|solutionrelative:chat.dataaccess\\chat.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.dataaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|solutionrelative:chat.dataaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3731CED9-BE94-44E7-914F-96D2A1A9DD4D}|Chat.Infrastructure\\Chat.Infrastructure.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.infrastructure\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3731CED9-BE94-44E7-914F-96D2A1A9DD4D}|Chat.Infrastructure\\Chat.Infrastructure.csproj|solutionrelative:chat.infrastructure\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.dataaccess\\entities\\friendpairentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|solutionrelative:chat.dataaccess\\entities\\friendpairentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.dataaccess\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|solutionrelative:chat.dataaccess\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.dataaccess\\repositories\\friendrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|solutionrelative:chat.dataaccess\\repositories\\friendrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.dataaccess\\configurations\\friendpairconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|solutionrelative:chat.dataaccess\\configurations\\friendpairconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.dataaccess\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57607117-D296-456B-9851-8973BD052B5E}|Chat.DataAccess\\Chat.DataAccess.csproj|solutionrelative:chat.dataaccess\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84CB4D01-7DB3-4F48-8FA1-71900D0DD27A}|Chat.Core\\Chat.Core.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.core\\models\\friendpair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84CB4D01-7DB3-4F48-8FA1-71900D0DD27A}|Chat.Core\\Chat.Core.csproj|solutionrelative:chat.core\\models\\friendpair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84CB4D01-7DB3-4F48-8FA1-71900D0DD27A}|Chat.Core\\Chat.Core.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84CB4D01-7DB3-4F48-8FA1-71900D0DD27A}|Chat.Core\\Chat.Core.csproj|solutionrelative:chat.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31B945DA-7497-4265-8F95-A24762DAA307}|Chat.Application\\Chat.Application.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.application\\services\\friendpairservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31B945DA-7497-4265-8F95-A24762DAA307}|Chat.Application\\Chat.Application.csproj|solutionrelative:chat.application\\services\\friendpairservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat\\controllers\\friendspaircontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|solutionrelative:chat\\controllers\\friendspaircontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat\\contracts\\pairrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|solutionrelative:chat\\contracts\\pairrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat\\contracts\\pairsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|solutionrelative:chat\\contracts\\pairsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat\\contracts\\usersresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|solutionrelative:chat\\contracts\\usersresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat\\contracts\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|solutionrelative:chat\\contracts\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat\\contracts\\userloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|solutionrelative:chat\\contracts\\userloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84CB4D01-7DB3-4F48-8FA1-71900D0DD27A}|Chat.Core\\Chat.Core.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.core\\absrtactions\\ifriendpairservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84CB4D01-7DB3-4F48-8FA1-71900D0DD27A}|Chat.Core\\Chat.Core.csproj|solutionrelative:chat.core\\absrtactions\\ifriendpairservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84CB4D01-7DB3-4F48-8FA1-71900D0DD27A}|Chat.Core\\Chat.Core.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.core\\absrtactions\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84CB4D01-7DB3-4F48-8FA1-71900D0DD27A}|Chat.Core\\Chat.Core.csproj|solutionrelative:chat.core\\absrtactions\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84CB4D01-7DB3-4F48-8FA1-71900D0DD27A}|Chat.Core\\Chat.Core.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat.core\\absrtactions\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84CB4D01-7DB3-4F48-8FA1-71900D0DD27A}|Chat.Core\\Chat.Core.csproj|solutionrelative:chat.core\\absrtactions\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat\\extensions\\apiextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|solutionrelative:chat\\extensions\\apiextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat\\endpoints\\userendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|solutionrelative:chat\\endpoints\\userendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|solutionrelative:chat\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07F68827-00A4-48F9-A040-AC6DEC9931E9}|Chat\\Chat.csproj|c:\\users\\79069\\source\\repos\\chat-master\\chatbackend\\chat\\chat.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -174,111 +178,50 @@
         },
         {
           "DockedWidth": 89,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\appsettings.json",
-              "RelativeDocumentMoniker": "Chat\\appsettings.json",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\appsettings.json",
-              "RelativeToolTip": "Chat\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-10T15:39:45.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Chat.Core.csproj",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Chat.Core.csproj",
-              "RelativeDocumentMoniker": "Chat.Core\\Chat.Core.csproj",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Chat.Core.csproj",
-              "RelativeToolTip": "Chat.Core\\Chat.Core.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-31T11:41:24.736Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Chat\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Chat\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAApAAAAAAAAAA==",
+              "Title": "UsersResponse.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Contracts\\UsersResponse.cs",
+              "RelativeDocumentMoniker": "Chat\\Contracts\\UsersResponse.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Contracts\\UsersResponse.cs",
+              "RelativeToolTip": "Chat\\Contracts\\UsersResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T13:40:52.637Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Chat\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\appsettings.Development.json",
-              "RelativeToolTip": "Chat\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-31T12:43:47.667Z",
+              "WhenOpened": "2024-10-31T13:45:28.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Chat\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Chat\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-10T12:25:00.297Z",
+              "DocumentIndex": 7,
+              "Title": "PairRequest.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Contracts\\PairRequest.cs",
+              "RelativeDocumentMoniker": "Chat\\Contracts\\PairRequest.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Contracts\\PairRequest.cs",
+              "RelativeToolTip": "Chat\\Contracts\\PairRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T13:45:48.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Container.targets",
-              "DocumentMoniker": "C:\\Users\\79069\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
-              "ToolTip": "C:\\Users\\79069\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
-              "ViewState": "AgIAAAMAAAAAAAAAAAArwBIAAABgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-12-10T16:10:14.14Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Program.cs",
-              "RelativeDocumentMoniker": "Chat\\Program.cs",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Program.cs",
-              "RelativeToolTip": "Chat\\Program.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAAC8AAAAwAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "FriendsPairController.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Controllers\\FriendsPairController.cs",
+              "RelativeDocumentMoniker": "Chat\\Controllers\\FriendsPairController.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Controllers\\FriendsPairController.cs",
+              "RelativeToolTip": "Chat\\Controllers\\FriendsPairController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T12:37:26.525Z",
+              "WhenOpened": "2024-11-14T13:31:14.72Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Chat.Application.csproj",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Application\\Chat.Application.csproj",
-              "RelativeDocumentMoniker": "Chat.Application\\Chat.Application.csproj",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Application\\Chat.Application.csproj",
-              "RelativeToolTip": "Chat.Application\\Chat.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-31T12:53:59.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "JwtOptions.cs",
               "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Infrastructure\\JwtOptions.cs",
               "RelativeDocumentMoniker": "Chat.Infrastructure\\JwtOptions.cs",
@@ -286,11 +229,12 @@
               "RelativeToolTip": "Chat.Infrastructure\\JwtOptions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T06:37:29.445Z"
+              "WhenOpened": "2024-11-05T06:37:29.445Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "JwtProvider.cs",
               "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Infrastructure\\JwtProvider.cs",
               "RelativeDocumentMoniker": "Chat.Infrastructure\\JwtProvider.cs",
@@ -298,23 +242,301 @@
               "RelativeToolTip": "Chat.Infrastructure\\JwtProvider.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAkwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T06:23:43.82Z"
+              "WhenOpened": "2024-11-05T06:23:43.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Infrastructure\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "Chat.Infrastructure\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Infrastructure\\PasswordHasher.cs",
+              "RelativeToolTip": "Chat.Infrastructure\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T05:35:44.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Chat.DataAccess\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Chat.DataAccess\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwGIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T12:08:44.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FriendPairConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\Configurations\\FriendPairConfigurations.cs",
+              "RelativeDocumentMoniker": "Chat.DataAccess\\Configurations\\FriendPairConfigurations.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\Configurations\\FriendPairConfigurations.cs",
+              "RelativeToolTip": "Chat.DataAccess\\Configurations\\FriendPairConfigurations.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T13:27:55.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Chat.DataAccess\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "Chat.DataAccess\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T12:02:50.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Contracts\\UserRequest.cs",
+              "RelativeDocumentMoniker": "Chat\\Contracts\\UserRequest.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Contracts\\UserRequest.cs",
+              "RelativeToolTip": "Chat\\Contracts\\UserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T05:47:35.101Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ChatDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\ChatDbContext.cs",
-              "RelativeDocumentMoniker": "Chat.DataAccess\\ChatDbContext.cs",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\ChatDbContext.cs",
-              "RelativeToolTip": "Chat.DataAccess\\ChatDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
+              "Title": "UserLoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Contracts\\UserLoginRequest.cs",
+              "RelativeDocumentMoniker": "Chat\\Contracts\\UserLoginRequest.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Contracts\\UserLoginRequest.cs",
+              "RelativeToolTip": "Chat\\Contracts\\UserLoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T11:54:53.939Z"
+              "WhenOpened": "2024-11-05T05:59:39.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Chat\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\WeatherForecast.cs",
+              "RelativeToolTip": "Chat\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T11:11:17.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FriendPairService.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Application\\Services\\FriendPairService.cs",
+              "RelativeDocumentMoniker": "Chat.Application\\Services\\FriendPairService.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Application\\Services\\FriendPairService.cs",
+              "RelativeToolTip": "Chat.Application\\Services\\FriendPairService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T13:33:02.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FriendPair.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Models\\FriendPair.cs",
+              "RelativeDocumentMoniker": "Chat.Core\\Models\\FriendPair.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Models\\FriendPair.cs",
+              "RelativeToolTip": "Chat.Core\\Models\\FriendPair.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T04:57:15.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Chat.Core\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Models\\User.cs",
+              "RelativeToolTip": "Chat.Core\\Models\\User.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA5wCEAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T11:42:02.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FriendRepository.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\Repositories\\FriendRepository.cs",
+              "RelativeDocumentMoniker": "Chat.DataAccess\\Repositories\\FriendRepository.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\Repositories\\FriendRepository.cs",
+              "RelativeToolTip": "Chat.DataAccess\\Repositories\\FriendRepository.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAcwE4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T04:49:39.386Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "UsersService.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Application\\Services\\UsersService.cs",
+              "RelativeDocumentMoniker": "Chat.Application\\Services\\UsersService.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Application\\Services\\UsersService.cs",
+              "RelativeToolTip": "Chat.Application\\Services\\UsersService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAWwFIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T12:54:31.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Chat\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Chat\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowFEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:40:52.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PairsResponse.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Contracts\\PairsResponse.cs",
+              "RelativeDocumentMoniker": "Chat\\Contracts\\PairsResponse.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Contracts\\PairsResponse.cs",
+              "RelativeToolTip": "Chat\\Contracts\\PairsResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T13:43:02.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Endpoints\\UserEndpoints.cs",
+              "RelativeDocumentMoniker": "Chat\\Endpoints\\UserEndpoints.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Endpoints\\UserEndpoints.cs",
+              "RelativeToolTip": "Chat\\Endpoints\\UserEndpoints.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T05:29:27.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IFriendPairService.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Absrtactions\\IFriendPairService.cs",
+              "RelativeDocumentMoniker": "Chat.Core\\Absrtactions\\IFriendPairService.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Absrtactions\\IFriendPairService.cs",
+              "RelativeToolTip": "Chat.Core\\Absrtactions\\IFriendPairService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T13:36:53.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IFriendRepository.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Absrtactions\\IFriendRepository.cs",
+              "RelativeDocumentMoniker": "Chat.Core\\Absrtactions\\IFriendRepository.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Absrtactions\\IFriendRepository.cs",
+              "RelativeToolTip": "Chat.Core\\Absrtactions\\IFriendRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:59:03.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IUsersService.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Absrtactions\\IUsersService.cs",
+              "RelativeDocumentMoniker": "Chat.Core\\Absrtactions\\IUsersService.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Absrtactions\\IUsersService.cs",
+              "RelativeToolTip": "Chat.Core\\Absrtactions\\IUsersService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T06:21:23.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApiExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Extensions\\ApiExtensions.cs",
+              "RelativeDocumentMoniker": "Chat\\Extensions\\ApiExtensions.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Extensions\\ApiExtensions.cs",
+              "RelativeToolTip": "Chat\\Extensions\\ApiExtensions.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBYAAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T14:23:01.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FriendPairEntity.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\Entities\\FriendPairEntity.cs",
+              "RelativeDocumentMoniker": "Chat.DataAccess\\Entities\\FriendPairEntity.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\Entities\\FriendPairEntity.cs",
+              "RelativeToolTip": "Chat.DataAccess\\Entities\\FriendPairEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T04:50:08.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Absrtactions\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Chat.Core\\Absrtactions\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Absrtactions\\IUserRepository.cs",
+              "RelativeToolTip": "Chat.Core\\Absrtactions\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T06:20:38.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Chat\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\appsettings.Development.json",
+              "RelativeToolTip": "Chat\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-31T12:43:47.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\appsettings.json",
+              "RelativeDocumentMoniker": "Chat\\appsettings.json",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\appsettings.json",
+              "RelativeToolTip": "Chat\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-10T15:39:45.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "UserEntity.cs",
               "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\Entities\\UserEntity.cs",
               "RelativeDocumentMoniker": "Chat.DataAccess\\Entities\\UserEntity.cs",
@@ -326,43 +548,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "FriendPairEntity.cs",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\Entities\\FriendPairEntity.cs",
-              "RelativeDocumentMoniker": "Chat.DataAccess\\Entities\\FriendPairEntity.cs",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\Entities\\FriendPairEntity.cs",
-              "RelativeToolTip": "Chat.DataAccess\\Entities\\FriendPairEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T04:50:08.943Z"
+              "DocumentIndex": 32,
+              "Title": "Chat.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Application\\Chat.Application.csproj",
+              "RelativeDocumentMoniker": "Chat.Application\\Chat.Application.csproj",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Application\\Chat.Application.csproj",
+              "RelativeToolTip": "Chat.Application\\Chat.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-31T12:53:59.454Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UsersService.cs",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Application\\Services\\UsersService.cs",
-              "RelativeDocumentMoniker": "Chat.Application\\Services\\UsersService.cs",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Application\\Services\\UsersService.cs",
-              "RelativeToolTip": "Chat.Application\\Services\\UsersService.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAwEIAAABHAAAAAAAAAA==",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Program.cs",
+              "RelativeDocumentMoniker": "Chat\\Program.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Program.cs",
+              "RelativeToolTip": "Chat\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAIBJwC8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T12:54:31.453Z"
+              "WhenOpened": "2024-10-31T12:37:26.525Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Chat.DataAccess\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Chat.DataAccess\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAowEwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T12:08:44.005Z"
+              "DocumentIndex": 31,
+              "Title": "Container.targets",
+              "DocumentMoniker": "C:\\Users\\79069\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
+              "ToolTip": "C:\\Users\\79069\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\build\\Container.targets",
+              "ViewState": "AgIAAAMAAAAAAAAAAAArwBIAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-12-10T16:10:14.14Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 30,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Chat\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Chat\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-10T12:25:00.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Chat.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Chat.Core.csproj",
+              "RelativeDocumentMoniker": "Chat.Core\\Chat.Core.csproj",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Chat.Core.csproj",
+              "RelativeToolTip": "Chat.Core\\Chat.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-31T11:41:24.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ChatDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\ChatDbContext.cs",
+              "RelativeDocumentMoniker": "Chat.DataAccess\\ChatDbContext.cs",
+              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\ChatDbContext.cs",
+              "RelativeToolTip": "Chat.DataAccess\\ChatDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T11:54:53.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
               "Title": "Chat.DataAccess.csproj",
               "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\Chat.DataAccess.csproj",
               "RelativeDocumentMoniker": "Chat.DataAccess\\Chat.DataAccess.csproj",
@@ -374,235 +632,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Infrastructure\\PasswordHasher.cs",
-              "RelativeDocumentMoniker": "Chat.Infrastructure\\PasswordHasher.cs",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Infrastructure\\PasswordHasher.cs",
-              "RelativeToolTip": "Chat.Infrastructure\\PasswordHasher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T05:35:44.396Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "FriendPairConfigurations.cs",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\Configurations\\FriendPairConfigurations.cs",
-              "RelativeDocumentMoniker": "Chat.DataAccess\\Configurations\\FriendPairConfigurations.cs",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\Configurations\\FriendPairConfigurations.cs",
-              "RelativeToolTip": "Chat.DataAccess\\Configurations\\FriendPairConfigurations.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T13:27:55.474Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "FriendPair.cs",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Models\\FriendPair.cs",
-              "RelativeDocumentMoniker": "Chat.Core\\Models\\FriendPair.cs",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Models\\FriendPair.cs",
-              "RelativeToolTip": "Chat.Core\\Models\\FriendPair.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T04:57:15.269Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Chat.Core\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Models\\User.cs",
-              "RelativeToolTip": "Chat.Core\\Models\\User.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwCcAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T11:42:02.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "FriendRepository.cs",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\Repositories\\FriendRepository.cs",
-              "RelativeDocumentMoniker": "Chat.DataAccess\\Repositories\\FriendRepository.cs",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\Repositories\\FriendRepository.cs",
-              "RelativeToolTip": "Chat.DataAccess\\Repositories\\FriendRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T04:49:39.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "UserConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\Configurations\\UserConfiguration.cs",
-              "RelativeDocumentMoniker": "Chat.DataAccess\\Configurations\\UserConfiguration.cs",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.DataAccess\\Configurations\\UserConfiguration.cs",
-              "RelativeToolTip": "Chat.DataAccess\\Configurations\\UserConfiguration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T12:02:50.32Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "FriendPairService.cs",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Application\\Services\\FriendPairService.cs",
-              "RelativeDocumentMoniker": "Chat.Application\\Services\\FriendPairService.cs",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Application\\Services\\FriendPairService.cs",
-              "RelativeToolTip": "Chat.Application\\Services\\FriendPairService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T13:33:02.592Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "FriendsPairController.cs",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Controllers\\FriendsPairController.cs",
-              "RelativeDocumentMoniker": "Chat\\Controllers\\FriendsPairController.cs",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Controllers\\FriendsPairController.cs",
-              "RelativeToolTip": "Chat\\Controllers\\FriendsPairController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwD4AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T13:31:14.72Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "PairRequest.cs",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Contracts\\PairRequest.cs",
-              "RelativeDocumentMoniker": "Chat\\Contracts\\PairRequest.cs",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Contracts\\PairRequest.cs",
-              "RelativeToolTip": "Chat\\Contracts\\PairRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T13:45:48.732Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "PairsResponse.cs",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Contracts\\PairsResponse.cs",
-              "RelativeDocumentMoniker": "Chat\\Contracts\\PairsResponse.cs",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Contracts\\PairsResponse.cs",
-              "RelativeToolTip": "Chat\\Contracts\\PairsResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T13:43:02.202Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "UserRequest.cs",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Contracts\\UserRequest.cs",
-              "RelativeDocumentMoniker": "Chat\\Contracts\\UserRequest.cs",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Contracts\\UserRequest.cs",
-              "RelativeToolTip": "Chat\\Contracts\\UserRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T05:47:35.101Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "UserLoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Contracts\\UserLoginRequest.cs",
-              "RelativeDocumentMoniker": "Chat\\Contracts\\UserLoginRequest.cs",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Contracts\\UserLoginRequest.cs",
-              "RelativeToolTip": "Chat\\Contracts\\UserLoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T05:59:39.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "IFriendPairService.cs",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Absrtactions\\IFriendPairService.cs",
-              "RelativeDocumentMoniker": "Chat.Core\\Absrtactions\\IFriendPairService.cs",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Absrtactions\\IFriendPairService.cs",
-              "RelativeToolTip": "Chat.Core\\Absrtactions\\IFriendPairService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T13:36:53.224Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "UsersResponse.cs",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Contracts\\UsersResponse.cs",
-              "RelativeDocumentMoniker": "Chat\\Contracts\\UsersResponse.cs",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Contracts\\UsersResponse.cs",
-              "RelativeToolTip": "Chat\\Contracts\\UsersResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T13:45:28.091Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IUsersService.cs",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Absrtactions\\IUsersService.cs",
-              "RelativeDocumentMoniker": "Chat.Core\\Absrtactions\\IUsersService.cs",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Absrtactions\\IUsersService.cs",
-              "RelativeToolTip": "Chat.Core\\Absrtactions\\IUsersService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T06:21:23.581Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Absrtactions\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Chat.Core\\Absrtactions\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Absrtactions\\IUserRepository.cs",
-              "RelativeToolTip": "Chat.Core\\Absrtactions\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T06:20:38.465Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ApiExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Extensions\\ApiExtensions.cs",
-              "RelativeDocumentMoniker": "Chat\\Extensions\\ApiExtensions.cs",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Extensions\\ApiExtensions.cs",
-              "RelativeToolTip": "Chat\\Extensions\\ApiExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAB3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T14:23:01.965Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "UserEndpoints.cs",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Endpoints\\UserEndpoints.cs",
-              "RelativeDocumentMoniker": "Chat\\Endpoints\\UserEndpoints.cs",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Endpoints\\UserEndpoints.cs",
-              "RelativeToolTip": "Chat\\Endpoints\\UserEndpoints.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T05:29:27.699Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "Chat\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\WeatherForecast.cs",
-              "RelativeToolTip": "Chat\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T11:11:17.488Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Chat.csproj",
               "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat\\Chat.csproj",
               "RelativeDocumentMoniker": "Chat\\Chat.csproj",
@@ -614,7 +644,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "IPasswordHasher.cs",
               "DocumentMoniker": "C:\\Users\\79069\\source\\repos\\Chat-master\\ChatBackend\\Chat.Core\\Absrtactions\\IPasswordHasher.cs",
               "RelativeDocumentMoniker": "Chat.Core\\Absrtactions\\IPasswordHasher.cs",
@@ -626,7 +656,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "RouteEndpointDataSource.cs",
               "DocumentMoniker": "C:\\Users\\79069\\AppData\\Local\\SourceServer\\d22fce42314c77473784ea5fc2e288516998d1abbc3f3ff21680457205d7e9dc\\src\\Http\\Routing\\src\\RouteEndpointDataSource.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\d22fce42314c77473784ea5fc2e288516998d1abbc3f3ff21680457205d7e9dc\\src\\Http\\Routing\\src\\RouteEndpointDataSource.cs",

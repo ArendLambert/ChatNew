@@ -20,7 +20,7 @@ namespace Chat.Controllers
         {
             var pairs = await _friendPairService.GetAllPairs();
 
-            var pairResponse = pairs.Select(x => new PairsResponse(x.Id, x.UserId, x.FriendId));
+            var pairResponse = pairs.Select(x => new PairsResponse(x.Id, x.UserId, x.FriendId, x.Confirm, x.Cancel));
             return Ok(pairResponse);
         }
 
@@ -30,7 +30,9 @@ namespace Chat.Controllers
         {
             var pair = Chat.Core.Models.FriendPair.Create(Guid.NewGuid(),
                                                              request.userId,
-                                                             request.friendId);
+                                                             request.friendId,
+                                                             request.confirm,
+                                                             request.cancel);
             var pairId = await _friendPairService.CreatePair(pair);
             return Ok(pairId);
         }
@@ -39,7 +41,7 @@ namespace Chat.Controllers
         [Authorize]
         public async Task<ActionResult<Guid>> UpdatePair(Guid id, [FromBody] PairRequest request)
         {
-            var pairId = await _friendPairService.UpdatePair(id, request.userId, request.friendId);
+            var pairId = await _friendPairService.UpdatePair(id, request.userId, request.friendId, request.confirm, request.cancel);
             return Ok(pairId);
         }
 
@@ -52,15 +54,35 @@ namespace Chat.Controllers
         }
 
         [HttpGet("by-id")]
+        [Authorize]
         public async Task<ActionResult<PairsResponse>> GetById(Guid idPair)
         {
-            var pair = await _friendPairService.GetById(idPair);
-            var pairResponse = new PairsResponse(Guid.Empty, Guid.Empty, Guid.Empty);
-            if (pair != null)
+            var pairs = await _friendPairService.GetById(idPair);
+            List<PairsResponse> pairResponses = new List<PairsResponse>();
+            if (pairs != null)
             {
-                pairResponse = new PairsResponse(pair.Id, pair.UserId, pair.FriendId);
+                foreach (var pair in pairs)
+                {
+                    pairResponses.Add(new PairsResponse(pair.Id, pair.UserId, pair.FriendId, pair.Confirm, pair.Cancel));
+                }
             }
-            return Ok(pairResponse);
+            return Ok(pairResponses);
+        }
+
+        [HttpGet("by-friend-id")]
+        [Authorize]
+        public async Task<ActionResult<PairsResponse>> GetByFriendId(Guid idPair)
+        {
+            var pairs = await _friendPairService.GetByFriendId(idPair);
+            List<PairsResponse> pairResponses = new List<PairsResponse>();
+            if (pairs != null)
+            {
+                foreach (var pair in pairs)
+                {
+                    pairResponses.Add(new PairsResponse(pair.Id, pair.UserId, pair.FriendId, pair.Confirm, pair.Cancel));
+                }
+            }
+            return Ok(pairResponses);
         }
     }
 }

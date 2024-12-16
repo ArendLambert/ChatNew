@@ -10,5 +10,6 @@ namespace Chat.DataAccess.Repositories
         Task<Guid> Update(Guid id, string name, string sessionId, string password, string email);
         Task<User> GetByEmail(string email);
         Task<User> GetPasswordByEmail(string email);
+        Task<User> GetById(Guid id);
     }
 }

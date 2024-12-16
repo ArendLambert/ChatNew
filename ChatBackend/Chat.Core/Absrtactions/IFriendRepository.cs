@@ -7,7 +7,8 @@ namespace Chat.DataAccess.Repositories
         Task<Guid> Create(FriendPair pair);
         Task<Guid> Delete(Guid id);
         Task<List<FriendPair>> Get();
-        Task<FriendPair> GetById(Guid id);
-        Task<Guid> Update(Guid id, Guid idUser, Guid idFriend);
+        Task<List<FriendPair>> GetById(Guid id);
+        Task<Guid> Update(Guid id, Guid idUser, Guid idFriend, bool confirm, bool cancel);
+        Task<List<FriendPair>> GetByFriendId(Guid id);
     }
 }

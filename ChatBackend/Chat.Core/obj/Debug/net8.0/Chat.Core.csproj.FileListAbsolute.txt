@@ -35,3 +35,4 @@ C:\Users\79069\source\repos\Chat-master\ChatBackend\Chat.Core\obj\Debug\net8.0\C
 C:\Users\79069\source\repos\Chat-master\ChatBackend\Chat.Core\obj\Debug\net8.0\refint\Chat.Core.dll
 C:\Users\79069\source\repos\Chat-master\ChatBackend\Chat.Core\obj\Debug\net8.0\Chat.Core.pdb
 C:\Users\79069\source\repos\Chat-master\ChatBackend\Chat.Core\obj\Debug\net8.0\ref\Chat.Core.dll
+C:\Users\79069\source\repos\Chat-master\ChatBackend\Chat.Core\obj\Debug\net8.0\Chat.Core.sourcelink.json

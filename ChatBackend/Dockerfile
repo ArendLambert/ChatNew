@@ -24,8 +24,6 @@ COPY --from=build /app/publish .
 
 EXPOSE 7151
 EXPOSE 8080
-EXPOSE 80
-EXPOSE 443
 
 # Указываем точку входа
 ENTRYPOINT ["dotnet", "Chat.dll"]

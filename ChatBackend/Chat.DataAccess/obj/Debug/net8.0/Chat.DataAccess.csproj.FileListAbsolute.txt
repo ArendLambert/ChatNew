@@ -50,3 +50,4 @@ C:\Users\79069\source\repos\Chat-master\ChatBackend\Chat.DataAccess\obj\Debug\ne
 C:\Users\79069\source\repos\Chat-master\ChatBackend\Chat.DataAccess\obj\Debug\net8.0\Chat.DataAccess.pdb
 C:\Users\79069\source\repos\Chat-master\ChatBackend\Chat.DataAccess\obj\Debug\net8.0\Chat.DataAccess.genruntimeconfig.cache
 C:\Users\79069\source\repos\Chat-master\ChatBackend\Chat.DataAccess\obj\Debug\net8.0\ref\Chat.DataAccess.dll
+C:\Users\79069\source\repos\Chat-master\ChatBackend\Chat.DataAccess\obj\Debug\net8.0\Chat.DataAccess.sourcelink.json

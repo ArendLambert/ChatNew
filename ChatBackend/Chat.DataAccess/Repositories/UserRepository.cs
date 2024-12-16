@@ -87,16 +87,15 @@ namespace Chat.DataAccess.Repositories
             return user;
         }
 
-        //public async Task<User> GetById(Guid userId)
-        //{
-        //    var (user, error) = await _context.Users
-        //        .AsNoTracking()
-        //        .Where(x => x.Id == userId)
-        //        .Select(x => User.Create(x.Id, x.Name, x.SessionId, x.Password, x.Email))
-        //        .FirstOrDefaultAsync();
+        public async Task<User> GetById(Guid id)
+        {
+            var (user, error) = await _context.Users
+                .AsNoTracking()
+                .Where(x => x.Id == id)
+                .Select(x => User.Create(x.Id, x.Name, x.SessionId, x.Password, x.Email))
+                .FirstOrDefaultAsync();
 
-        //    return user;
-        //}
-
+            return user;
+        }
     }
 }

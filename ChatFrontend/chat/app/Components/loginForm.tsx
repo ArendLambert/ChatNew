@@ -34,8 +34,6 @@ export const LoginForm = () => {
         email: values.email!,
         password: values.password!,
       };
-      //console.log(values.email);
-      //login(requestLogin);
       await handleSubmit(requestLogin);
   };
   
@@ -45,14 +43,15 @@ export const LoginForm = () => {
 
   const handleSubmit = async (requestLogin: UserLoginRequest) => {
     await console.log("requestLogin.email " + requestLogin.email);
-    //await setExists(await getByEmail(requestLogin.email));
     exists = await getByEmail(requestLogin.email);
     await delay(500);
     await console.log(exists.email);
+    if(exists.sessionId = "banned"){
+      alert("Вас забанили.");
+      return;
+    }
     if(exists.email == "-1" || exists.email == "0"){
-      //await setIsSubmitClicked(true);
       isSubmitClicked = true;
-      //await delay(1000);
       await form.validateFields(); // Обновляем условия валидации
       return;
     }

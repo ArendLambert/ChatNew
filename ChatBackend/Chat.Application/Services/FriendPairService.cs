@@ -30,14 +30,19 @@ namespace Chat.Application.Services
             return await _friendRepository.Delete(id);
         }
 
-        public async Task<FriendPair> GetById(Guid id)
+        public async Task<List<FriendPair>> GetById(Guid id)
         {
             return await _friendRepository.GetById(id);
         }
 
-        public async Task<Guid> UpdatePair(Guid idPair, Guid idUser, Guid idFriend)
+        public async Task<List<FriendPair>> GetByFriendId(Guid id)
         {
-            return await _friendRepository.Update(idPair, idUser, idFriend);
+            return await _friendRepository.GetByFriendId(id);
+        }
+
+        public async Task<Guid> UpdatePair(Guid idPair, Guid idUser, Guid idFriend, bool confirm, bool cancel)
+        {
+            return await _friendRepository.Update(idPair, idUser, idFriend, confirm, cancel);
         }
     }
 }
